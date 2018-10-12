@@ -1,0 +1,22 @@
+{
+    "id": "da38e30c",
+    "name": "Make Stars",
+    "version": "1.0.0",
+    "description": "Make Stars converts your selected shapes to star shapes or adds a new star shape to your artboard if nothing is selected. You can choose the number of points and the star point inset factor for your new stars.",
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.12"
+    },
+    "icons": [{
+            "width": 48,
+            "height": 48,
+            "path": "colorstar_48x48.png"
+    }],
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Star Tool...",
+            "commandId": "command.tool.shape.star"
+       }
+    ]
+}
